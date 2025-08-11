@@ -1,0 +1,10 @@
+build:
+  gpu: true
+  python_version: "3.10"
+  python_packages:
+    - "torch==2.1.0"
+    - "transformers==4.41.2"
+    - "accelerate==0.29.3"
+    - "bitsandbytes==0.43.1"
+predict:
+  gpu: "t4"
